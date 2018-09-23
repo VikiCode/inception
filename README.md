@@ -1,6 +1,6 @@
 # Dark-Inception
 
-![dark inception](https://github.com/VikiCode/inception/tree/master/screenshot/darkinceeption.jpg)
+![dark inception](https://github.com/VikiCode/inception/tree/master/screenshot/darkinceeption.png)
 
 A nice sublime text 3 like theme for your Brackets code editor.
 
@@ -13,8 +13,8 @@ Downlaod the theme from extension manager in [Brackets](http://brackets.io/).
 
 
 ## HTML
-![ HTML Screenshot](https://github.com/VikiCode/inception/tree/master/screenshot/html.JPG)
+![ HTML Screenshot](https://github.com/VikiCode/inception/tree/master/screenshot/html.png)
 ## CSS
-![ CSS Screenshot](https://github.com/VikiCode/inception/tree/master/screenshot/css.jpg)
+![ CSS Screenshot](https://github.com/VikiCode/inception/tree/master/screenshot/css.png)
 
 
