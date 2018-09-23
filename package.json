@@ -1,0 +1,16 @@
+{
+  "name": "Dark Inception",
+  "title": "Dark Inception",
+  "description": "A nice sublime text 3 like Dark theme",
+  "homepage": "https://github.com/VikiCode/inception",
+  "version": "1.0.0",
+  "author": "VikiCode <Vikicodea2z@gmail.com>(https://github.com/VikiCode)",
+  "license": "GPL-3.0",
+  "theme": {
+    "file": "theme_style.less",
+    "dark": true,
+    "addModeClass": true
+  },
+  "keywords": ["theme","dark","html","css","php","javascript","readability","sublime"],
+  "screenshot": "screenshot/html.png"
+}
