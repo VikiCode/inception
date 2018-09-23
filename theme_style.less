@@ -1,0 +1,137 @@
+/*!
+ **Dark Inception Theme for Brackets
+ **Licensed under GNU General Public License v3.0
+ */
+
+@background: #282923;
+@background-1: rgba(153, 187, 255, 0.1);
+@background-2: rgba(85, 102, 119, 0.5);
+@background-3: rgba(85, 102, 119, 0.7);
+@violet :#AC80FF;
+@gray: #90918B;
+@pink: #F92467;
+@light-green: #A6E22B;
+@lightviolet: #AEA8D3; 
+@yellow: #E7DB74;
+@red: #FF0000;
+@skyblue: #67D8EF;
+@white : #ffffff;
+@orange: #fd963f;
+@lightgray: #74705D;
+@black: #000000;
+
+/*------------------------------- -----------------------------------------------------------------------------*/
+.cm-tag,.cm-operator,.cm-keyword {color: @pink}
+.cm-bracket {color: @pink}
+.cm-atom {color: @skyblue}
+.cm-link {color: @pink}
+.cm-number {color: @violet}
+.cm-variable,.cm-variable-3 {color: @skyblue}
+.cm-meta { color: @skyblue}
+.cm-attribute,.cm-builtin,.cm-qualifier {color: @light-green}
+.cm-string,.cm-string-2 { color: @yellow}
+.cm-property {color: @skyblue}
+.cm-variable-2 { color: @skyblue}
+.cm-comment {color: @lightgray}
+.cm-def { color: @yellow}
+
+
+/*----------------------------------------------------------------------------------------------------- */
+/*.cm-error {
+    background: @red;
+    color: @white !important
+}*/
+
+.CodeMirror,
+.CodeMirror-scroll {
+    background: @background;
+    color: @white !important
+}
+
+.CodeMirror-gutters {background: @background}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt,
+.CodeMirror-focused .CodeMirror-activeline-background,
+.inline-widget .CodeMirror-gutter-elt {background: @background-1}
+
+.CodeMirror-linenumber {color: @gray}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {color: @white}
+
+.CodeMirror-cursor {border-left: 1px solid @white  !important}
+
+.CodeMirror-selected {background: @white}
+
+.CodeMirror-focused .CodeMirror-selected {background: @background-2}
+
+.CodeMirror-matchingbracket {
+    background: @lightviolet;
+    color: @white  !important;
+    font-weight: bold
+}
+
+.CodeMirror-nonmatchingbracket {
+    background: @red  !important;
+    color: @white  !important
+}
+
+.CodeMirror-matchingtag { background: @background-3}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid @white
+}
+
+.CodeMirror-searching {
+    background-color: @lightviolet ;
+    color: @black !important
+}
+
+.searching-current-match {
+    background-color: @lightviolet;
+    border: 2px solid #528BFF ;
+    color: @black !important
+}
+
+.CodeMirror-foldgutter-open:after {
+    content: "▾";
+    font-size: 1.30rem;
+    color: @gray
+}
+
+.CodeMirror-foldgutter-folded:after {
+    content: "▸";
+    font-size: 1.30em;
+    color: @gray  !important;
+}
+
+.CodeMirror-foldgutter-folded {padding-top: 0px}
+
+.CodeMirror-foldgutter-open {padding-top: 0px}
+
+.CodeMirror-foldmarker {
+    display: inline-block;
+    border-radius: .75em;
+    padding: 0 2px;
+    border: 0;
+    font-size: .625em;
+    color: @white  !important;
+    background: 0 0
+}
+
+.CodeMirror-foldmarker:after {
+    content: '\2022\2022\2022';
+    position: relative;
+    top: 1px
+}
+
+.ico-cssColorPreview {
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    margin-bottom: 2px
+}
+
+.brackets-git-gutter-added,
+.brackets-git-gutter-modified,
+.brackets-git-gutter-removed { width: 3px}
